@@ -1,11 +1,15 @@
 /*
 how to use
 
-1. place 32bitEFI.c and 64 bit linux iso into the same directory
-2. rename linux iso to blackmacbook64.iso
-3. compile 32bitEFI.c with "cc -g -Wall -o 32bitEFI.c"
-4. make it executable 'chmod +x 32bitEFI
-5. burn new iso
+1. Place 32bitEFI.c and 64 bit linux iso into the same directory
+2. Rename linux iso to blackmacbook64.iso
+3. Open a terminal and navigate into that folder, if you don't how to navigate file structure,
+  you should learn it is very easy. All you need are the "cd" command and the "pwd" command.
+4. Compile 32bitEFI.c with "cc -g -Wall -o 32bitEFI 32bitEFI.c" 
+4. Make it executable with "chmod +x 32bitEFI"
+5. Run the program that has just been compiled as "32bitEFI" (NOT 32bitEFI.c, this is the name of this C script)
+  with "./32bitEFI".
+5. Burn new iso
 */
 
 #include <sys/types.h>
